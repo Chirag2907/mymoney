@@ -1,7 +1,7 @@
 # My MONEY
-## This is a website to keep a track of your income and expenses
+## This is a website to keep track of your income and expenses
 
-## It is created in React.js, therefore you can follow the following steps to compile:
+### It is created using React.js, therefore you can follow the following steps to compile:
 
 In the project directory, you can run:
 
@@ -19,11 +19,11 @@ You will also see any lint errors in the console.
 
 # About the Project
 
-The webpage begins with a login loading page where you can create your account (if new user) or login (if exisiting user)
-It is linked with firebase database for fraud proof login using a password (6 digits minimum)
+The webpage begins with a login screen where you can create your account or login (for existing users).
+It is linked with firebase database for fraud proof authentication using a password.
 
-Then on the dashboard you get out expense tracker.
+Then on the dashboard you get our expense tracker.
 Here you can enter the income/expense details and add them to your account.
-The summary at the bottom describes the total income and expense of the user along with the history to keep a track of when and on what the user spend their money.
+The summary at the bottom describes the total income and expense of the user along with the history to keep track of when and on what the user is spending their money.
 
 This will help the user to track their money and decide on how they can save/invest the balance they have.
