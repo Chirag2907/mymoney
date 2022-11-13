@@ -278,3 +278,8 @@ input[type="date"]:hover::-webkit-calendar-picker-indicator:hover { opacity:0.15
   font-family: 'Lato', sans-serif; 
   /* width: 100vw; */
 }
+
+.dashboard{
+  position: relative;
+
+}

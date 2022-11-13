@@ -39,19 +39,15 @@ export default function NavBar() {
               id="navbarSupportedContent"
             >
               {/* <!-- Navbar brand --> */}
-              <Link className="navbar-brand mt-2 mt-lg-0" to="/Dashboard">
+              <Link className="navbar-brand mt-2 mt-lg-0" to="/">
                 <img src={logo} alt="logo" width='60' />
                 <img src={title} alt="title" width='170' className="mx-2"/>
               </Link>
               {/* <!-- Left links --> */}
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        
                 <li className="nav-item">
-                  <Link className="nav-link" to="/Dashboard">
-                    Dashboard
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/ExpenseTracker">
+                  <Link className="nav-link" to="/">
                     Expenses
                   </Link>
                 </li>
@@ -76,8 +72,7 @@ export default function NavBar() {
         {/* <!-- Navbar --> */}
         {/* <!-- Navbar --> */}
         <Routes>
-          <Route path="/ExpenseTracker" element={<ExpenseTracker />} />
-          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/" element={<ExpenseTracker />} />
         </Routes>
       </BrowserRouter>
     </div>
