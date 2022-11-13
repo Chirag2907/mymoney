@@ -1,11 +1,11 @@
 # My MONEY
 ## This is a website to keep a track of your income and expenses
 
-##It is created in React.js, therefore you can follow the following steps to compile:
+## It is created in React.js, therefore you can follow the following steps to compile:
 
 In the project directory, you can run:
 
-##first install node modules using
+## first install node modules using
 ### `npm i` 
 
 ##start dev server using
