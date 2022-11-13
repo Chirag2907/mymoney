@@ -1,11 +1,14 @@
-# Getting Started with Create React App
+# My MONEY
+## This is a website to keep a track of your income and expenses
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+##It is created in React.js, therefore you can follow the following steps to compile:
 
 In the project directory, you can run:
 
+##first install node modules using
+### `npm i` 
+
+##start dev server using
 ### `npm start`
 
 Runs the app in the development mode.\
